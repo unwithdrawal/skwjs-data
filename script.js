@@ -1,4 +1,9 @@
 const Peer = window.Peer;
+const Peer = require('skyway-js');
+const peer = new Peer({key: 'ebd5349b-10aa-4435-8de0-0b2f303e88d7'});
+
+import Peer from 'skyway-js';
+const peer = new Peer({key: 'ebd5349b-10aa-4435-8de0-0b2f303e88d7'});
 
 (async function main() {
   const localId = document.getElementById('js-local-id');
